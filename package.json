@@ -3,8 +3,7 @@
   "description": "Callbag operator that Drops consecutive duplicate",
   "dependencies": {},
   "devDependencies": {
-    "tape": "~4.9.0",
-    "callbag-from-iter": "~1.0.0"
+    "tape": "~4.9.0"
   },
   "keywords": [
     "callbag"

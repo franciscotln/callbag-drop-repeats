@@ -11,8 +11,8 @@ If not provided then `(a, b) => a === b` will be used.
 ### Listenables
 
 ```js
-import dropRepeats from 'callbag-drop-repeats';
-import { forEach, map, interval, pipe, take } from 'callbag-basics';
+const dropRepeats = require('callbag-drop-repeats');
+const { forEach, map, interval, pipe, take } = require('callbag-basics');
 
 pipe(
   interval(1000),
