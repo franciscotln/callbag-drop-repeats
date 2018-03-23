@@ -1,0 +1,23 @@
+{
+  "author": "Francisco Tavares de Lima Neto",
+  "description": "Callbag operator that Drops consecutive duplicate",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~4.9.0",
+    "callbag-from-iter": "~1.0.0"
+  },
+  "keywords": [
+    "callbag"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "callbag-drop-repeats",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscotln/callbag-drop-repeats.git"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "version": "1.0.0"
+}
