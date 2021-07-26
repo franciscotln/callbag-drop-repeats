@@ -10,4 +10,4 @@ const dropRepeats = pred => src => (start, sink) => {
   });
 };
 
-module.exports = dropRepeats;
+export default dropRepeats;

@@ -1,5 +1,5 @@
 const test = require('tape');
-const dropRepeats = require('./index.js');
+const dropRepeats = require('.');
 
 const TYPES = {
   FUNCTION: 'function',
